@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 227, 161);
+    font-family:'Trebuchet MS';
+}
+
+#navbar{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(112, 24, 24);
+    
+}
+
+#navbar a{
+    color:lightgoldenrodyellow;
+    
+    
+}
+#navbar a:hover{
+    font-size: 120%;
+}
+
+#nav_links{
+    display: flex;
+    gap: 10px;
+    
+}
+   
+#img_shop{
+    padding-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#links_line{
+    padding: 1px;
+    display: inline;
+    background-color: rgb(112, 24, 24);
+    font-size: 20px;
+    margin: 5px;
+}
+
+#links_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#links_whole{
+    text-align: inline;
+    color: lightgoldenrodyellow;
+    text-decoration: underline;
+    
+}
+
+#welcome{
+    display: flex;
+    justify-content: center;
+    color: rgb(112, 24, 24);
+    text-decoration: underline;
+}
+
+#about{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: rgb(112, 24, 24);
+    text-decoration: underline;
+    
+}
+#about_txt{
+    display: flex;
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(112, 24, 24);
+}
+
+#img_container{
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+#img_container img{
+    
+    justify-content: center; 
+    max-width: 35%;
+}
+#drink_title{
+    text-align: center;
+    color: rgb(112, 24, 24);
+    text-decoration: underline;
+}
+#drink_container{
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#drink_desc{
+    padding: 10px;
+    background-color: rgb(112, 24, 24);
+    color: lightgoldenrodyellow;
+    text-align: center;
+}
+#drink_item{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#drink_img{
+    scale: 170%;
+}
+
+#drink_price{
+    color: rgb(112, 24, 24);
+    margin-top: 40px;
+    
+}
+#drink_item2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+#drink_img2{
+    scale: 100%;
+}
+#drink_item3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#drink_img3{
+    scale: 250%;
+}
+
+#drink_price3{
+    color: rgb(112, 24, 24);
+    margin-top: 50px;
+
+}
+
+#drink_price2{
+    color: rgb(112, 24, 24);
+    margin-top: 5px;
+}
